@@ -1,0 +1,116 @@
+.loginsignup{
+    background:#fce3fe;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+.loginsignup-container{
+    width: 45vw;
+    background: white;
+    margin: auto;
+    padding: 40px 60px;
+}
+
+.loginsignup-fields{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.loginsignup-fields input{
+    height: 7vh;
+    width: 100%;
+    padding-left: 20px;
+    border: 1px solid #c9c9c9;
+    outline: none;
+    color: #5c5c5c;
+    font-size: 18px;
+}
+.loginsignup-fields textarea{
+    height: 15vh;
+    width: 100%;
+    padding-left: 20px;
+    border: 1px solid #c9c9c9;
+    outline: none;
+    color: #5c5c5c;
+    font-size: 18px;
+}
+
+button{
+    margin-top: 5vh;
+}
+
+.loginsignup-login{
+    margin-top: 20px;
+    color: #5c5c5c;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.loginsignup-login span{
+    color: #ff4141;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.loginsignup-agree{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 2vh;
+    font-size:18px;
+    font-weight: 500;
+    gap: 20px;
+    color: #5c5c5c;
+}
+
+.loginsignup-agree input{
+    width: 1vw;
+    height: 3vh;
+}
+.formData{
+    margin-top: 5vh;
+}
+
+.header-checkbox{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.header-checkbox .form-check-input{
+    width: 1vw;
+    height: 3vh;
+
+}
+
+
+.form-check {
+    margin-bottom: 0;
+    display:flex;
+    align-items: center;
+    padding-left: 1.5rem;
+    padding-right: 2rem;
+    margin-top: 2vh;
+}
+.form-check  label{
+    margin-left: 5px;
+}
+.header-checkbox legend{
+    font-size: 1.1rem;
+    margin-bottom: 0;
+}
+
+.formsummary{
+    margin-top: 5vh;
+}
+span{
+    color: red;
+}
+
+.formsummary{
+    margin-top: 5vh;
+}
+.formsummary p{
+    color: black;
+}
